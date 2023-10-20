@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+header {
+    background-color: white;
+    color: green;
+    border: 1px solid gray;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    list-style-type: none;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 0;
+    gap: 10px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: orange;
+}
+
+nav ul li:hover {
+    background-color: rgb(59, 209, 91);
+}
+
+nav li {
+    background-color: green;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+article {
+    background-color: black;
+    border: 1px solid gray;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+}
+
+img {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
